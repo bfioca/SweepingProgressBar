@@ -15,6 +15,7 @@
 @property (strong) UIColor *borderColor;
 
 + (void)showInView:(UIView *)view;
++ (void) showInView:(UIView *)view backgroundColor: cbgColor indicatorColor: cindicatorColor borderColor: cborderColor;
 + (void)dismiss;
 
 @end
