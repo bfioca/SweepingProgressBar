@@ -1,4 +1,4 @@
-_**If your project doesn't use ARC**: you must add the `-fobjc-arc` compiler flag to `SVProgressHUD.m` in Target Settings > Build Phases > Compile Sources._
+_**If your project doesn't use ARC**: you must add the `-fobjc-arc` compiler flag to `SweepingProgressBar.m` in Target Settings > Build Phases > Compile Sources._
 
 # SweepingProgressBar
 
