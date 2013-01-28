@@ -10,16 +10,15 @@
 		D3E3318F16B5F15D004E9262 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3318E16B5F15D004E9262 /* UIKit.framework */; };
 		D3E3319116B5F15D004E9262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3319016B5F15D004E9262 /* Foundation.framework */; };
 		D3E3319316B5F15D004E9262 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E3319216B5F15D004E9262 /* CoreGraphics.framework */; };
-		D3E3319916B5F15D004E9262 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E3319716B5F15D004E9262 /* InfoPlist.strings */; };
 		D3E3319B16B5F15D004E9262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3319A16B5F15D004E9262 /* main.m */; };
 		D3E3319F16B5F15D004E9262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3319E16B5F15D004E9262 /* AppDelegate.m */; };
 		D3E331A116B5F15D004E9262 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E331A016B5F15D004E9262 /* Default.png */; };
 		D3E331A316B5F15D004E9262 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E331A216B5F15D004E9262 /* Default@2x.png */; };
 		D3E331A516B5F15D004E9262 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E331A416B5F15D004E9262 /* Default-568h@2x.png */; };
 		D3E331A816B5F15D004E9262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E331A716B5F15D004E9262 /* ViewController.m */; };
-		D3E331AB16B5F15D004E9262 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E331A916B5F15D004E9262 /* ViewController_iPhone.xib */; };
-		D3E331AE16B5F15D004E9262 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E331AC16B5F15D004E9262 /* ViewController_iPad.xib */; };
 		D3E331B816B5F1D9004E9262 /* SweepingProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E331B716B5F1D9004E9262 /* SweepingProgressBar.m */; };
+		D3F63FD316B5FC4800FF893F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F63FCF16B5FC4800FF893F /* InfoPlist.strings */; };
+		D3F63FD716B5FC6800FF893F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F63FD516B5FC6800FF893F /* ViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +26,20 @@
 		D3E3318E16B5F15D004E9262 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3E3319016B5F15D004E9262 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3E3319216B5F15D004E9262 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D3E3319616B5F15D004E9262 /* SweepingProgressBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SweepingProgressBar-Info.plist"; sourceTree = "<group>"; };
-		D3E3319816B5F15D004E9262 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D3E3319A16B5F15D004E9262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D3E3319C16B5F15D004E9262 /* SweepingProgressBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SweepingProgressBar-Prefix.pch"; sourceTree = "<group>"; };
-		D3E3319D16B5F15D004E9262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D3E3319E16B5F15D004E9262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3E331A016B5F15D004E9262 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D3E331A216B5F15D004E9262 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D3E331A416B5F15D004E9262 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D3E331A616B5F15D004E9262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3E331A716B5F15D004E9262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3E331AA16B5F15D004E9262 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		D3E331AD16B5F15D004E9262 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		D3E331B616B5F1D9004E9262 /* SweepingProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SweepingProgressBar.h; sourceTree = SOURCE_ROOT; };
-		D3E331B716B5F1D9004E9262 /* SweepingProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SweepingProgressBar.m; sourceTree = SOURCE_ROOT; };
+		D3E3319616B5F15D004E9262 /* SweepingProgressBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SweepingProgressBar-Info.plist"; path = "../Demo/SweepingProgressBar-Info.plist"; sourceTree = "<group>"; };
+		D3E3319A16B5F15D004E9262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Demo/main.m; sourceTree = "<group>"; };
+		D3E3319C16B5F15D004E9262 /* SweepingProgressBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SweepingProgressBar-Prefix.pch"; path = "../Demo/SweepingProgressBar-Prefix.pch"; sourceTree = "<group>"; };
+		D3E3319D16B5F15D004E9262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Demo/AppDelegate.h; sourceTree = "<group>"; };
+		D3E3319E16B5F15D004E9262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../Demo/AppDelegate.m; sourceTree = "<group>"; };
+		D3E331A016B5F15D004E9262 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Demo/Default.png; sourceTree = "<group>"; };
+		D3E331A216B5F15D004E9262 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Demo/Default@2x.png"; sourceTree = "<group>"; };
+		D3E331A416B5F15D004E9262 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Demo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3E331A616B5F15D004E9262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../Demo/ViewController.h; sourceTree = "<group>"; };
+		D3E331A716B5F15D004E9262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../Demo/ViewController.m; sourceTree = "<group>"; };
+		D3E331B616B5F1D9004E9262 /* SweepingProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SweepingProgressBar.h; path = SweepingProgressBar/SweepingProgressBar.h; sourceTree = SOURCE_ROOT; };
+		D3E331B716B5F1D9004E9262 /* SweepingProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SweepingProgressBar.m; path = SweepingProgressBar/SweepingProgressBar.m; sourceTree = SOURCE_ROOT; };
+		D3F63FD016B5FC4800FF893F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Demo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D3F63FD616B5FC6800FF893F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Demo/en.lproj/ViewController_iPhone.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +86,9 @@
 		D3E3319416B5F15D004E9262 /* SweepingProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				D3F63FCD16B5FB8200FF893F /* Demo */,
 				D3E331B616B5F1D9004E9262 /* SweepingProgressBar.h */,
 				D3E331B716B5F1D9004E9262 /* SweepingProgressBar.m */,
-				D3E3319D16B5F15D004E9262 /* AppDelegate.h */,
-				D3E3319E16B5F15D004E9262 /* AppDelegate.m */,
-				D3E331A616B5F15D004E9262 /* ViewController.h */,
-				D3E331A716B5F15D004E9262 /* ViewController.m */,
-				D3E331A916B5F15D004E9262 /* ViewController_iPhone.xib */,
-				D3E331AC16B5F15D004E9262 /* ViewController_iPad.xib */,
 				D3E3319516B5F15D004E9262 /* Supporting Files */,
 			);
 			path = SweepingProgressBar;
@@ -104,8 +97,8 @@
 		D3E3319516B5F15D004E9262 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3F63FCF16B5FC4800FF893F /* InfoPlist.strings */,
 				D3E3319616B5F15D004E9262 /* SweepingProgressBar-Info.plist */,
-				D3E3319716B5F15D004E9262 /* InfoPlist.strings */,
 				D3E3319A16B5F15D004E9262 /* main.m */,
 				D3E3319C16B5F15D004E9262 /* SweepingProgressBar-Prefix.pch */,
 				D3E331A016B5F15D004E9262 /* Default.png */,
@@ -113,6 +106,18 @@
 				D3E331A416B5F15D004E9262 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3F63FCD16B5FB8200FF893F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D3F63FD516B5FC6800FF893F /* ViewController_iPhone.xib */,
+				D3E3319D16B5F15D004E9262 /* AppDelegate.h */,
+				D3E3319E16B5F15D004E9262 /* AppDelegate.m */,
+				D3E331A616B5F15D004E9262 /* ViewController.h */,
+				D3E331A716B5F15D004E9262 /* ViewController.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +171,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E3319916B5F15D004E9262 /* InfoPlist.strings in Resources */,
 				D3E331A116B5F15D004E9262 /* Default.png in Resources */,
 				D3E331A316B5F15D004E9262 /* Default@2x.png in Resources */,
 				D3E331A516B5F15D004E9262 /* Default-568h@2x.png in Resources */,
-				D3E331AB16B5F15D004E9262 /* ViewController_iPhone.xib in Resources */,
-				D3E331AE16B5F15D004E9262 /* ViewController_iPad.xib in Resources */,
+				D3F63FD316B5FC4800FF893F /* InfoPlist.strings in Resources */,
+				D3F63FD716B5FC6800FF893F /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,28 +196,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D3E3319716B5F15D004E9262 /* InfoPlist.strings */ = {
+		D3F63FCF16B5FC4800FF893F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3E3319816B5F15D004E9262 /* en */,
+				D3F63FD016B5FC4800FF893F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D3E331A916B5F15D004E9262 /* ViewController_iPhone.xib */ = {
+		D3F63FD516B5FC6800FF893F /* ViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3E331AA16B5F15D004E9262 /* en */,
+				D3F63FD616B5FC6800FF893F /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		D3E331AC16B5F15D004E9262 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3E331AD16B5F15D004E9262 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,8 +270,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SweepingProgressBar/SweepingProgressBar-Prefix.pch";
-				INFOPLIST_FILE = "SweepingProgressBar/SweepingProgressBar-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/SweepingProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/SweepingProgressBar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -285,8 +281,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SweepingProgressBar/SweepingProgressBar-Prefix.pch";
-				INFOPLIST_FILE = "SweepingProgressBar/SweepingProgressBar-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/SweepingProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/SweepingProgressBar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,6 +307,7 @@
 				D3E331B316B5F15D004E9262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
