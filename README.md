@@ -6,6 +6,7 @@ SweepingProgressBar is an improved implementation of [TYIndeterminateProgressBar
 
 Here's a screenshot of it working:
 http://cl.ly/image/3L3n3y1e2G26
+
 ![SweepingProgressBar](http://f.cl.ly/items/0M2N3n05341q1s2a1O1G/Screen%20Shot%202013-01-27%20at%203.59.13%20PM.png)
 
 ## Installation
